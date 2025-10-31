@@ -1,0 +1,45 @@
+🧩 1. Khái niệm cơ bản
+
+Swap curve là đường cong thể hiện các mức lãi suất hoán đổi (swap rates) cho các kỳ hạn khác nhau — ví dụ 1 năm, 2 năm, 5 năm, 10 năm, 30 năm,...
+
+Mỗi swap rate là lãi suất cố định mà nhà đầu tư sẵn sàng trả (hoặc nhận) trong một hợp đồng hoán đổi lãi suất (interest rate swap) để đổi lấy dòng tiền lãi suất thả nổi (thường theo LIBOR, SOFR hoặc VND-RefRate,...).
+
+💡 2. Swap rate nói lên điều gì
+
+Swap rate phản ánh kỳ vọng của thị trường về:
+
+Ý nghĩa	Giải thích
+Kỳ vọng lãi suất tương lai	Nếu swap rate dài hạn cao hơn ngắn hạn → thị trường kỳ vọng lãi suất sẽ tăng trong tương lai.
+Chi phí vay mượn (funding cost)	Swap rate là lãi suất “phi rủi ro” tham chiếu mà doanh nghiệp hoặc ngân hàng dựa vào để định giá chi phí vốn.
+Định giá trái phiếu và phái sinh	Swap curve thường được dùng thay cho yield curve của trái phiếu chính phủ để chiết khấu dòng tiền.
+So sánh rủi ro tín dụng quốc gia	Nếu swap curve cao hơn đường cong trái phiếu chính phủ → thị trường cho rằng rủi ro tín dụng cao hơn (credit spread).
+📉 3. Ví dụ trực quan
+
+Giả sử swap curve USD như sau:
+
+Kỳ hạn	Swap rate
+1Y	4.5%
+2Y	4.3%
+5Y	4.0%
+10Y	3.8%
+
+→ Đường cong đi xuống (downward-sloping) ⇒ thị trường kỳ vọng lãi suất giảm trong tương lai, thường do kỳ vọng suy thoái hoặc nới lỏng tiền tệ.
+
+Ngược lại, nếu đường cong dốc lên ⇒ kỳ vọng lãi suất tăng.
+
+🧮 4. Ứng dụng của swap curve
+
+Định giá trái phiếu, CDS, IRS, FRA
+
+Tính discount factor và forward rate
+
+Quản trị rủi ro lãi suất của ngân hàng
+
+Phân tích chênh lệch giữa swap rate và bond yield (swap spread) để đánh giá mức độ căng thẳng thanh khoản trên thị trường
+
+🔍 5. So sánh nhanh
+Loại đường cong	Dựa trên	Mục đích
+Government yield curve	Trái phiếu chính phủ	Thể hiện lãi suất phi rủi ro (sovereign risk-free)
+Swap curve	Lãi suất hoán đổi (interbank market)	Thể hiện chi phí vốn thực tế giữa các định chế tài chính
+
+Nếu bạn muốn, mình có thể vẽ đồ thị minh họa swap curve và yield curve (ví dụ USD hoặc VND) và chỉ rõ cách diễn giải chênh lệch (swap spread) để bạn thấy rõ hơn không?
